@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+# Keep package-lock.json if you want to lock versions, otherwise ignore it
+# package-lock.json
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Environment variables (DO NOT COMMIT)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+.history/
+.claude/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Project specific (User resources & Inputs)
+input/
+res/
